@@ -1,11 +1,12 @@
 void main(){
+  bool status = false;
+  String resultado;
+  //print(status);
 
-  String nome = "Felipe";
-  String sobrenome = "André";
+  //bool isTrue = 1 < 0;
+  //print(isTrue);
 
-  print(nome + sobrenome);
 
-  String cor = "Azul";
-  String resultado = cor ?? "Sem cor";
+  resultado = status ? "verdadeiro" : "falso";
   print(resultado);
 }
